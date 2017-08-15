@@ -1,0 +1,27 @@
+/* css for lab 11 */
+
+
+img { 
+	display: block; 
+	max-width: 33%;
+	padding: 10px;
+}
+
+h1 {
+	color: white;
+}	
+
+body {
+	background-color: black;
+}
+
+/* script from in class exercise
+var url = 'https://www.reddit.com/r/aww/.json'
+$.get(url).done(function(responseBody) {
+  console.log("DONE", responseBody.data.children[0].data.title);
+}).fail(function() {
+  console.log("FAIL");
+}).always(function() {
+  console.log("ALWAYS");
+});
+*/
